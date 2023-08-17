@@ -1,0 +1,26 @@
+body{
+    background-color: #f6e0b5;
+}
+
+.circle-container {
+    width: 400px;
+    height: 400px;
+    border-radius: 70%;
+    overflow: hidden;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.circle-image {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1.7);
+    transition: transform 0.3s ease-in-out;
+}
