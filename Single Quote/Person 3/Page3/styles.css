@@ -1,0 +1,86 @@
+
+body {
+    background-color: #aa6f73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Borel', 'Great Vibes', 'Ubuntu', cursive, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.button {
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 10px;
+    margin-top: 5px;
+    line-height: 40px;
+}
+  
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: flex-end; /* Align to the bottom */
+    justify-content: flex-start;/* Align to the left */
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+.button {
+    width: 120px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2.0px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+
+    outline: none;
+    padding-left: 50px;
+    margin-left: -10px;
+    margin-left: 20px; /* Add some spacing between the button and circle-container */
+}
+
+.button:hover {
+    background-color: #e53a2e;
+    box-shadow: 0px 15px 20px rgba(243, 54, 54, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.circle-container {
+    width: 400px;
+    height: 400px;
+    border-radius: 70%;
+    overflow: hidden;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transform: translateX(-7%)
+}
+
+h1{
+    transform: translateX(-5%);
+        max-width: 55%; 
+        margin: auto; 
+        color: #ffe3e3;
+}
+
+.circle-image {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1.8);
+    transition: transform 0.3s ease-in-out;
+    margin-right: -7%;
+}
