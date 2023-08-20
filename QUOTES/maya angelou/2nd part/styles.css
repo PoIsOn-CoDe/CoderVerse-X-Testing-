@@ -1,0 +1,86 @@
+/* Split the screen in half */
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 10px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #eea990;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: #aa6f73;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  html, body {
+    height: 100%;
+  }
+  
+  .button {
+    text-decoration: none; 
+    margin-bottom: 10px;
+    margin-top: 5px;
+    line-height: 40px;
+  }
+  
+  .wrap {
+    height: 100%;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    position: absolute;
+  }
+  
+  .button {
+    width: 120px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2.0px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+  
+    outline: none;
+    padding-left: 50px;
+    margin-left: -10px;
+    margin-left: 20px; 
+  }
+  
+  .button:hover {
+    background-color: #e53a2e;
+    box-shadow: 0px 15px 20px rgba(243, 54, 54, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
