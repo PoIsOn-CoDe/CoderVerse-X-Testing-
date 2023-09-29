@@ -155,7 +155,7 @@ h3{
 
 #ai-link {
   position: absolute;
-  border: 2.5px solid #ffffff;
+/*   border: 2.5px solid #ffffff; */
   padding: 10px;
   display: inline-block;
   bottom: 20px;
@@ -166,6 +166,7 @@ h3{
   font-size: 20px;
   mix-blend-mode: hard-light;
   pointer-events: visibleStroke;
+  font-weight: bold;
 }
 
 .content {
